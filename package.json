@@ -1,8 +1,19 @@
 {
-  "name": "HerokuMVC",
+  "name": "herokumvc",
   "version": "1.0.0",
   "description": "A application working with Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.",
   "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1",
+    "express-session": "^1.17.1",
+    "handlebars": "^4.7.7",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
@@ -13,21 +24,10 @@
     "type": "git",
     "url": "git+https://github.com/Neeko623/HerokuMVC.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Neeko623/HerokuMVC/issues"
   },
-  "homepage": "https://github.com/Neeko623/HerokuMVC#readme",
-  "dependencies": {
-    "bcrypt": "^5.0.1",
-    "connect-session-sequelize": "^7.1.1",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "express-handlebars": "^5.2.1",
-    "express-session": "^1.17.1",
-    "mysql2": "^2.2.5",
-    "sequelize": "^6.5.0"
-  }
+  "homepage": "https://github.com/Neeko623/HerokuMVC#readme"
 }
